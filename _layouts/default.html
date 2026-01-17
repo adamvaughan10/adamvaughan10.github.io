@@ -3,14 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
   <div class="container">
     <header>
-      <h1>{{ site.title }}</h1>
-      <p>{{ site.description }}</p>
-      <hr>
+      <div class="site-head">
+        <div>
+          <p class="eyebrow">Portfolio</p>
+          <h1>{{ site.title }}</h1>
+          <p class="subtitle">{{ site.description }}</p>
+        </div>
+        <nav class="site-nav">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/about.html' | relative_url }}">About</a>
+          <a href="{{ '/projects.html' | relative_url }}">Projects</a>
+          <a href="{{ '/resume.html' | relative_url }}">Resume</a>
+        </nav>
+      </div>
     </header>
 
     <main>
@@ -18,7 +32,6 @@
     </main>
 
     <footer>
-      <hr>
       <p>© {{ site.title }}</p>
     </footer>
   </div>

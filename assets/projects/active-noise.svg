@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Placeholder image for active noise cancellation project">
+  <defs>
+    <linearGradient id="grad-c" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d9e8c7"/>
+      <stop offset="100%" stop-color="#95c37f"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="24" fill="url(#grad-c)"/>
+  <path d="M120 220 C180 120, 260 320, 340 180 S500 220, 560 140" fill="none" stroke="#f2f7ea" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="160" cy="120" r="24" fill="#f2f7ea"/>
+  <circle cx="480" cy="230" r="32" fill="#f2f7ea"/>
+  <text x="40" y="70" font-family="Space Grotesk, Arial, sans-serif" font-size="28" fill="#2b4a23">Active Noise</text>
+  <text x="40" y="110" font-family="Space Grotesk, Arial, sans-serif" font-size="16" fill="#2b4a23">Replace with project photo</text>
+</svg>
