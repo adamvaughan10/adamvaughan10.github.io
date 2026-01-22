@@ -5,7 +5,7 @@ title: Home
 
 <section class="hero">
   <div>
-  <h2>Mechanical Engineering student eager to build</h2>
+  <h2>Mechanical Engineering student ready to build</h2>
   <p>I believe that when you have a good idea, you are obligated to humanity to bring it to life. That belief is what pushed me toward engineering and keeps me excited about turning concepts into hardware you can touch, test, and improve.
   </p>
     <p>I am eager to contribute to a team of curious, driven people who care about building valuable, high-quality innovations and are willing to iterate until the details are right.</p>
