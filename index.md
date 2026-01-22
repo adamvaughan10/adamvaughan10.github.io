@@ -11,7 +11,7 @@ title: Home
     <p>I am eager to contribute to a team of curious, driven people who care about building valuable, high-quality innovations and are willing to iterate until the details are right.</p>
     <div class="hero-actions">
       <a class="button" href="{{ '/projects.html' | relative_url }}">View Projects</a>
-      <a class="button secondary" href="{{ '/resume.html' | relative_url }}">Download Resume</a>
+      <a class="button secondary" href="{{ '/resume.html' | relative_url }}">View Resume</a>
     </div>
   </div>
   <div class="hero-side">
