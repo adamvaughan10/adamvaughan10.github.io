@@ -11,22 +11,32 @@ title: Projects
 <section class="section-card">
   <div class="projects-grid">
     <article class="project-card">
-      <img src="{{ '/assets/projects/inverted-pendulum.svg' | relative_url }}" alt="Inverted pendulum project placeholder">
+      <img src="{{ '/assets/projects/robotic-arm.svg' | relative_url }}" alt="C-clamp project placeholder">
+      <div class="project-meta">Mechanical Design</div>
+      <h3><a href="{{ '/projects/c-clamp.html' | relative_url }}">C-Clamp</a></h3>
+      <p class="tagline">Design for strength, manufacturability, and reliable clamping performance.</p>
+      <div class="project-status status-complete">Completed</div>
+    </article>
+    <article class="project-card">
+      <img src="{{ '/assets/projects/active-noise.svg' | relative_url }}" alt="Phone gimbal project placeholder">
+      <div class="project-meta">Mechatronics</div>
+      <h3><a href="{{ '/projects/phone-gimbal.html' | relative_url }}">Phone Gimbal</a></h3>
+      <p class="tagline">Compact stabilization with smooth motion control and balanced mechanical layout.</p>
+      <div class="project-status status-complete">Completed</div>
+    </article>
+    <article class="project-card">
+      <img src="{{ '/assets/projects/inverted-pendulum.svg' | relative_url }}" alt="Turret-guided laser pointer project placeholder">
+      <div class="project-meta">Controls + Tracking</div>
+      <h3><a href="{{ '/projects/turret-guided-laser-pointer.html' | relative_url }}">Turret-Guided Laser Pointer</a></h3>
+      <p class="tagline">Target tracking with a pan-tilt turret and precision alignment logic.</p>
+      <div class="project-status status-progress">In Progress</div>
+    </article>
+    <article class="project-card">
+      <img src="{{ '/assets/projects/inverted-pendulum.svg' | relative_url }}" alt="Self-balancing robot project placeholder">
       <div class="project-meta">Controls + Dynamics</div>
-      <h3><a href="{{ '/projects/inverted-pendulum.html' | relative_url }}">2-Wheel Inverted Pendulum</a></h3>
-      <p class="tagline">Linearized dynamics, state-space modeling, and LQR/PID control on a self-balancing platform.</p>
-    </article>
-    <article class="project-card">
-      <img src="{{ '/assets/projects/robotic-arm.svg' | relative_url }}" alt="Robotic arm project placeholder">
-      <div class="project-meta">Kinematics + CAD</div>
-      <h3><a href="{{ '/projects/robotic-arm.html' | relative_url }}">Robotic Arm Kinematics</a></h3>
-      <p class="tagline">DH parameter modeling, inverse kinematics, and MATLAB validation for a 4-DOF arm.</p>
-    </article>
-    <article class="project-card">
-      <img src="{{ '/assets/projects/active-noise.svg' | relative_url }}" alt="Active noise cancellation project placeholder">
-      <div class="project-meta">Signal Processing</div>
-      <h3><a href="{{ '/projects/active-noise.html' | relative_url }}">Active Noise Cancellation</a></h3>
-      <p class="tagline">Real-time signal processing with embedded deployment and experimental verification.</p>
+      <h3><a href="{{ '/projects/self-balancing-robot.html' | relative_url }}">Self-Balancing Robot</a></h3>
+      <p class="tagline">Sensing, estimation, and balance control on a two-wheel platform.</p>
+      <div class="project-status status-progress">In Progress</div>
     </article>
   </div>
 </section>
