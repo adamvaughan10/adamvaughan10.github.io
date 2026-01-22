@@ -16,6 +16,7 @@ title: Home
   </div>
   <div class="hero-side">
     <img class="profile-photo" src="{{ '/IMG_0819.jpeg' | relative_url }}" alt="Portrait of Adam Vaughan">
+    <!--
     <div class="stats">
       <div class="stat-card">
         <strong>3+</strong>
@@ -34,6 +35,7 @@ title: Home
         <span>Hands-on: CAD, fabrication, validation</span>
       </div>
     </div>
+    -->
   </div>
 </section>
 
