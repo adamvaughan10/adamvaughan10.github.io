@@ -11,32 +11,40 @@ title: Projects
 <section class="section-card">
   <div class="projects-grid">
     <article class="project-card">
-      <img src="{{ '/assets/projects/robotic-arm.svg' | relative_url }}" alt="C-clamp project placeholder">
-      <div class="project-meta">Mechanical Design</div>
-      <h3><a href="{{ '/projects/c-clamp.html' | relative_url }}">C-Clamp</a></h3>
-      <p class="tagline">Design for strength, manufacturability, and reliable clamping performance.</p>
-      <div class="project-status status-complete">Completed</div>
+      <a class="project-card-link" href="{{ '/projects/c-clamp.html' | relative_url }}">
+        <img src="{{ '/assets/projects/robotic-arm.svg' | relative_url }}" alt="C-clamp project placeholder">
+        <h3>C-Clamp</h3>
+        <div class="project-meta">Mechanical Design</div>
+        <p class="tagline">Design for strength, manufacturability, and reliable clamping performance.</p>
+        <div class="project-status status-complete">Completed</div>
+      </a>
     </article>
     <article class="project-card">
-      <img src="{{ '/assets/projects/active-noise.svg' | relative_url }}" alt="Phone gimbal project placeholder">
-      <div class="project-meta">Mechatronics</div>
-      <h3><a href="{{ '/projects/phone-gimbal.html' | relative_url }}">Phone Gimbal</a></h3>
-      <p class="tagline">Compact stabilization with smooth motion control and balanced mechanical layout.</p>
-      <div class="project-status status-complete">Completed</div>
+      <a class="project-card-link" href="{{ '/projects/phone-gimbal.html' | relative_url }}">
+        <img src="{{ '/assets/projects/active-noise.svg' | relative_url }}" alt="Phone gimbal project placeholder">
+        <h3>Phone Gimbal</h3>
+        <div class="project-meta">Mechanical Design</div>
+        <p class="tagline">Compact stabilization with smooth motion control and balanced mechanical layout.</p>
+        <div class="project-status status-complete">Completed</div>
+      </a>
     </article>
     <article class="project-card">
-      <img src="{{ '/assets/projects/inverted-pendulum.svg' | relative_url }}" alt="Turret-guided laser pointer project placeholder">
-      <div class="project-meta">Controls + Tracking</div>
-      <h3><a href="{{ '/projects/turret-guided-laser-pointer.html' | relative_url }}">Turret-Guided Laser Pointer</a></h3>
-      <p class="tagline">Target tracking with a pan-tilt turret and precision alignment logic.</p>
-      <div class="project-status status-progress">In Progress</div>
+      <a class="project-card-link" href="{{ '/projects/turret-guided-laser-pointer.html' | relative_url }}">
+        <img src="{{ '/assets/projects/inverted-pendulum.svg' | relative_url }}" alt="Turret-guided laser pointer project placeholder">
+        <h3>Turret-Guided Laser Pointer</h3>
+        <div class="project-meta">Controls + Tracking</div>
+        <p class="tagline">Target tracking with a pan-tilt turret and precision alignment logic.</p>
+        <div class="project-status status-progress">In Progress</div>
+      </a>
     </article>
     <article class="project-card">
-      <img src="{{ '/assets/projects/inverted-pendulum.svg' | relative_url }}" alt="Self-balancing robot project placeholder">
-      <div class="project-meta">Controls + Dynamics</div>
-      <h3><a href="{{ '/projects/self-balancing-robot.html' | relative_url }}">Self-Balancing Robot</a></h3>
-      <p class="tagline">Sensing, estimation, and balance control on a two-wheel platform.</p>
-      <div class="project-status status-progress">In Progress</div>
+      <a class="project-card-link" href="{{ '/projects/self-balancing-robot.html' | relative_url }}">
+        <img src="{{ '/assets/projects/inverted-pendulum.svg' | relative_url }}" alt="Self-balancing robot project placeholder">
+        <h3>Self-Balancing Robot</h3>
+        <div class="project-meta">Controls + Dynamics</div>
+        <p class="tagline">Sensing, estimation, and balance control on a two-wheel platform.</p>
+        <div class="project-status status-progress">In Progress</div>
+      </a>
     </article>
   </div>
 </section>

@@ -218,12 +218,23 @@ main {
   border-radius: 18px;
   background: #fff;
   border: 1px solid #eedfcd;
-  display: grid;
-  gap: 12px;
+  display: block;
   min-height: 280px;
   position: relative;
   overflow: hidden;
   animation: fadeUp 0.9s ease both;
+}
+
+.project-card-link {
+  display: grid;
+  gap: 12px;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-card-link:hover h3 {
+  text-decoration: underline;
 }
 
 .project-card img {
@@ -236,15 +247,6 @@ main {
 .project-card h3 {
   margin: 0;
   font-size: 1.1rem;
-}
-
-.project-card a {
-  color: var(--accent-dark);
-  text-decoration: none;
-}
-
-.project-card a:hover {
-  text-decoration: underline;
 }
 
 .tagline {
