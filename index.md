@@ -58,10 +58,3 @@ title: Home
     </article>
   </div>
 </section>
-
-<section class="section-card">
-  <h2>Why I build</h2>
-  <p class="tagline">I love projects where mechanical intuition meets data. Whether it is balancing a platform or tuning a noisy system, I document my process and keep design decisions transparent.</p>
-  <p class="tagline">I believe that when you have a good idea, you have a responsibility to bring it into the real world, and I am eager to collaborate with people who share that drive to build high-quality, meaningful innovations.</p>
-  <a class="button secondary" href="{{ '/about.html' | relative_url }}">Read My Story</a>
-</section>
