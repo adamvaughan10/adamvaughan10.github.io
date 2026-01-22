@@ -16,26 +16,7 @@ title: Home
   </div>
   <div class="hero-side">
     <img class="profile-photo" src="{{ '/IMG_0819.jpeg' | relative_url }}" alt="Portrait of Adam Vaughan">
-    <!--
-    <div class="stats">
-      <div class="stat-card">
-        <strong>3+</strong>
-        <span>Prototype systems built</span>
-      </div>
-      <div class="stat-card">
-        <strong>4</strong>
-        <span>Core focus areas: robotics, controls, design, testing</span>
-      </div>
-      <div class="stat-card">
-        <strong>2</strong>
-        <span>Research + industry collaborations</span>
-      </div>
-      <div class="stat-card">
-        <strong>100%</strong>
-        <span>Hands-on: CAD, fabrication, validation</span>
-      </div>
-    </div>
-    -->
+    
   </div>
 </section>
 
@@ -55,7 +36,7 @@ title: Home
       <a class="project-card-link" href="{{ '/projects/phone-gimbal.html' | relative_url }}">
         <img src="{{ '/assets/projects/active-noise.svg' | relative_url }}" alt="Phone gimbal project placeholder">
         <h3>Phone Gimbal</h3>
-        <div class="project-meta">Mechatronics</div>
+        <div class="project-meta">Mechanical Design</div>
         <p class="tagline">Compact stabilization with smooth motion control and balanced mechanical layout.</p>
       </a>
     </article>
