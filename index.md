@@ -5,8 +5,9 @@ title: Home
 
 <section class="hero">
   <div>
-    <h2>Mechanical engineering student designing machines that feel alive.</h2>
-    <p>I focus on robotics, dynamic systems, and control—building prototypes that move with intention and documenting the engineering behind them.</p>
+    <h2>I believe that when you have a good idea, you are obligated to humanity to bring it into the real world. That belief is what pushed me toward engineering and keeps me excited about turning concepts into hardware you can touch, test, and improve.
+  </h2>
+    <p>I am eager to contribute to a team of curious, driven people who care about building valuable, high-quality innovations and are willing to iterate until the details are right.</p>
     <div class="hero-actions">
       <a class="button" href="{{ '/projects.html' | relative_url }}">View Projects</a>
       <a class="button secondary" href="{{ '/resume.html' | relative_url }}">Download Resume</a>
