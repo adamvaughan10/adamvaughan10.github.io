@@ -7,7 +7,7 @@ title: C-Clamp
   <h2>C-Clamp Manufacturing Project</h2>
   <h3>Description</h3>
   <div class="media-block media-left">
-    <figure class="media-figure media-figure-small">
+    <figure class="media-figure media-figure-small media-figure-rotate-left">
       <img src="{{ '/assets/projects/c-clamp/full.png' | relative_url }}" alt="Full C-clamp assembly">
       <figcaption class="tagline">Full assembly of the C-clamp after fabrication and testing.</figcaption>
     </figure>
