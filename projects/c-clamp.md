@@ -7,7 +7,7 @@ title: C-Clamp
   <h2>C-Clamp Design &amp; Manufacturing Project</h2>
   <h3>Description</h3>
   <div class="media-block media-left">
-    <figure class="media-figure">
+    <figure class="media-figure media-figure-small">
       <img src="{{ '/assets/projects/c-clamp/full.png' | relative_url }}" alt="Full C-clamp assembly">
       <figcaption class="tagline">Full assembly of the C-clamp after fabrication and testing.</figcaption>
     </figure>
@@ -54,13 +54,13 @@ title: C-Clamp
 
 <section class="section-card">
   <h3>Manufacturing Process</h3>
-  <p>All of the parts were designed in SolidWorks. We generated CNC toolpaths for the frame using SolidWorks’ built-in CAM tools, and planned all of the 3D-printed parts using Bambu Lab’s slicing software.</p>
   <div class="media-block media-right">
     <figure class="media-figure">
       <img src="{{ '/assets/projects/c-clamp/3d_print.png' | relative_url }}" alt="3D-printed clamp components">
       <figcaption class="tagline">All 3D-printed components before assembly.</figcaption>
     </figure>
     <div class="media-text">
+  <p>All of the parts were designed in SolidWorks. We generated CNC toolpaths for the frame using SolidWorks’ built-in CAM tools, and planned all of the 3D-printed parts using Bambu Lab’s slicing software.</p>
       <p>We also created fully dimensioned technical drawings for each part and used them to check the accuracy of the CNC-machined frame. This was a good reminder that even when you design everything in CAD, the real world always introduces some variation.</p>
     </div>
   </div>

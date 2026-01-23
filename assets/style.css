@@ -295,6 +295,11 @@ main {
   flex-shrink: 0;
 }
 
+.media-figure-small {
+  width: 28%;
+  max-width: 240px;
+}
+
 .media-block img {
   width: 100%;
   height: auto;
