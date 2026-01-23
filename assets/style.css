@@ -37,6 +37,29 @@ header {
   margin-bottom: 36px;
 }
 
+.site-contact {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  justify-content: center;
+  color: var(--muted);
+}
+
+.site-contact a {
+  color: var(--accent-dark);
+  text-decoration: none;
+}
+
+.site-contact a:hover,
+.site-contact a:focus {
+  text-decoration: underline;
+  outline: none;
+}
+
 .site-head {
   display: flex;
   justify-content: space-between;
