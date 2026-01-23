@@ -288,12 +288,17 @@ main {
   margin-top: 16px;
 }
 
+.media-figure {
+  margin: 0;
+  width: 36%;
+  max-width: 320px;
+  flex-shrink: 0;
+}
+
 .media-block img {
-  width: 32%;
-  max-width: 260px;
+  width: 100%;
   height: auto;
   border-radius: 12px;
-  flex-shrink: 0;
 }
 
 .media-block video {

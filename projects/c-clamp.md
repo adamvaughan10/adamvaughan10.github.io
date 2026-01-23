@@ -4,157 +4,99 @@ title: C-Clamp
 ---
 
 <section class="section-card">
-  <h2>C-Clamp Manufacturing Project</h2>
-  <h3>Overview</h3>
+  <h2>C-Clamp Design &amp; Manufacturing Project</h2>
+  <h3>Description</h3>
   <div class="media-block media-left">
-    <img src="{{ '/assets/projects/c-clamp/full.png' | relative_url }}" alt="Full C-clamp assembly">
+    <figure class="media-figure">
+      <img src="{{ '/assets/projects/c-clamp/full.png' | relative_url }}" alt="Full C-clamp assembly">
+      <figcaption class="tagline">Full assembly of the C-clamp after fabrication and testing.</figcaption>
+    </figure>
     <div class="media-text">
-      <p>As part of a Manufacturing Processes course, I designed and manufactured a functional C-clamp from concept through fabrication. The project required integrating CNC machining, additive manufacturing, CAD, and tolerance analysis while working under strict design constraints that forced deliberate engineering tradeoffs.</p>
-      <p>The final clamp successfully supported a 5 kg load without slippage or fracture, with failure occurring at 7 kg, providing a valuable opportunity for failure analysis and design iteration.</p>
-      <p class="tagline">Full assembly of the C-clamp after fabrication and testing.</p>
+      <p>For a manufacturing processes course, my partner and I designed and built a functional C-clamp from scratch. The goal was to take a simple mechanical tool all the way from concept to a finished, tested part, while working within a set of manufacturing constraints that heavily influenced the final design.</p>
     </div>
   </div>
 </section>
 
 <section class="section-card">
-  <h3>Project Requirements &amp; Constraints</h3>
+  <h3>Project Scope &amp; Constraints</h3>
+  <p>The clamp had to be made from three separate parts:</p>
   <ul>
-    <li>Clamp composed of three distinct parts: C-shaped frame (CNC-machined from PVC), screw (3D printed), and threaded insert section of the frame (3D printed).</li>
-    <li>No adhesives permitted to join the threaded insert to the frame.</li>
-    <li>Threads had to be fully functional despite 3D-printing limitations.</li>
-    <li>Required submission of technical drawings and dimensional verification against manufactured parts.</li>
+    <li>A C-shaped frame CNC-machined from PVC</li>
+    <li>A threaded screw with a swivel pad, manufactured using 3D printing</li>
+    <li>The threaded portion of the frame, also 3D printed</li>
   </ul>
-  <p>These constraints strongly influenced material selection, joint design, and manufacturing strategy.</p>
+  <p>On top of that, we weren’t allowed to use any adhesives to connect the threaded insert to the rest of the frame. This meant we had to rely entirely on geometry and tolerances to create a joint that could handle the forces involved in clamping.</p>
+  <p>At the same time, we had to work around the limitations of FDM 3D printing, especially when it came to printing usable threads. In practice, this locked us into certain print orientations to get clean threads, even if those orientations weren’t ideal for the strength or geometry of the joint.</p>
 </section>
 
 <section class="section-card">
-  <h3>Design Rationale &amp; Engineering Decisions</h3>
+  <h3>Design Rationale</h3>
   <div class="media-block media-right">
-    <img src="{{ '/assets/projects/c-clamp/frame_drawing.png' | relative_url }}" alt="C-frame technical drawing">
+    <figure class="media-figure">
+      <img src="{{ '/assets/projects/c-clamp/frame_drawing.png' | relative_url }}" alt="C-frame technical drawing">
+      <figcaption class="tagline">Technical drawing of the CNC-machined C-frame.</figcaption>
+    </figure>
     <div class="media-text">
-      <h4>Frame–Threaded Insert Interface</h4>
-      <p>To connect the 3D-printed threaded insert to the CNC-machined frame without adhesives, we designed a tight-tolerance dovetail joint inspired by woodworking joinery.</p>
-      <p>Engineering considerations included load transfer from the screw into the frame, stress concentration at the joint interface, print-orientation limitations of the threaded geometry, and achievable tolerances for CNC vs. FDM printing. The dovetail allowed for mechanical interlock while avoiding secondary fastening methods.</p>
-      <p class="tagline">Technical drawing of the CNC-machined C-frame.</p>
+      <p>To connect the 3D-printed threaded insert to the CNC-machined frame, we went with a dovetail joint, taking inspiration from woodworking. The idea was that with tight enough tolerances, the dovetail would provide a strong mechanical lock without needing glue or fasteners. This pushed us to think carefully about what tolerances were actually achievable when mixing CNC machining and FDM printing.</p>
     </div>
   </div>
   <div class="media-block media-left">
-    <img src="{{ '/assets/projects/c-clamp/foot_drawing.png' | relative_url }}" alt="Clamp foot technical drawing">
+    <figure class="media-figure">
+      <img src="{{ '/assets/projects/c-clamp/foot_drawing.png' | relative_url }}" alt="Clamp foot technical drawing">
+      <figcaption class="tagline">Clamp foot drawing highlighting the swivel contact geometry.</figcaption>
+    </figure>
     <div class="media-text">
-      <h4>Screw &amp; Swivel Foot Design</h4>
-      <p>To improve real-world usability, the clamp incorporated a rotating contact foot to accommodate non-flat surfaces.</p>
-      <p>This required separating the screw shaft from the contact foot and designing a ball-and-socket joint that allowed free rotation while resisting pull-out. Multiple print iterations were tested to balance ease of assembly, retention force, and durability under repeated loading.</p>
-      <p class="tagline">Clamp foot drawing highlighting the swivel contact geometry.</p>
-      <div class="media-video">
-        <video controls playsinline>
-          <source src="{{ '/assets/projects/c-clamp/ball_and_socket.mov' | relative_url }}" type="video/quicktime">
-        </video>
-      </div>
-      <p class="tagline">Ball-and-socket joint motion test for the swivel foot.</p>
+      <p>We also realized early on that the threaded screw needed to be separate from the swivel pad that contacts the workpiece. Having a rotating pad allows the clamp to sit better on uneven or non-flat surfaces and reduces point loading. To make this work, we designed a ball-and-socket joint between the screw and the swivel pad.</p>
+      <p>Getting this joint right took a few iterations. The fit needed to be loose enough that the pad could be snapped on by hand and rotate freely, but tight enough that it wouldn’t pull off under load. We printed and tested multiple versions until we found a balance that met those goals.</p>
     </div>
   </div>
 </section>
 
 <section class="section-card">
-  <h3>Manufacturing Workflow</h3>
-  <h4>CAD &amp; CAM</h4>
-  <ul>
-    <li>All components modeled in SolidWorks.</li>
-    <li>CNC toolpaths generated using SolidWorks CAM.</li>
-    <li>Fully dimensioned technical drawings created for each part.</li>
-  </ul>
-  <h4>CNC Machining</h4>
-  <ul>
-    <li>Machined the C-frame from PVC using a CNC mill.</li>
-    <li>Used drawings to verify dimensional accuracy, surface finish, and fit with 3D-printed components.</li>
-  </ul>
+  <h3>Manufacturing Process</h3>
+  <p>All of the parts were designed in SolidWorks. We generated CNC toolpaths for the frame using SolidWorks’ built-in CAM tools, and planned all of the 3D-printed parts using Bambu Lab’s slicing software.</p>
   <div class="media-block media-right">
-    <img src="{{ '/assets/projects/c-clamp/3d_print.png' | relative_url }}" alt="3D-printed clamp components">
+    <figure class="media-figure">
+      <img src="{{ '/assets/projects/c-clamp/3d_print.png' | relative_url }}" alt="3D-printed clamp components">
+      <figcaption class="tagline">All 3D-printed components before assembly.</figcaption>
+    </figure>
     <div class="media-text">
-      <h4>Additive Manufacturing</h4>
-      <ul>
-        <li>Printed threaded components and screw using FDM.</li>
-        <li>Planned prints in Bambu Lab slicing software.</li>
-        <li>Adjusted print orientation, layer height, infill, and wall thickness to balance strength, accuracy, and print success.</li>
-      </ul>
-      <p class="tagline">All 3D-printed components before assembly.</p>
+      <p>We also created fully dimensioned technical drawings for each part and used them to check the accuracy of the CNC-machined frame. This was a good reminder that even when you design everything in CAD, the real world always introduces some variation.</p>
     </div>
   </div>
 </section>
 
 <section class="section-card">
-  <h3>Testing &amp; Failure Analysis</h3>
-  <ul>
-    <li>Successfully supported 5 kg without deformation or slip.</li>
-    <li>Failed at 7 kg, with failure localized to the dovetail joint.</li>
-  </ul>
-  <p>Failure mode analysis showed plastic deformation of thin 3D-printed dovetail geometry. Layer-based construction allowed shear and rotation under increasing screw load, and joint orientation was not optimally aligned with applied loading. This provided direct insight into anisotropy and ductility in FDM-printed parts.</p>
+  <h3>Testing &amp; Performance</h3>
+  <p>The final clamp ended up being heavier than many others in the class, but it performed well. It was able to support a 5 kg load without slipping or breaking, and ultimately failed at 7 kg.</p>
+  <p>The failure happened at the dovetail joint, where the 3D-printed insert began to deform. The geometry in that region was too thin, and the layered nature of FDM printing made the part fairly ductile. On top of that, the orientation of the dovetail allowed the insert to rotate slightly as the clamping force from the threaded screw and swivel pad increased, which sped up the failure.</p>
 </section>
 
 <section class="section-card">
   <h3>Key Learnings</h3>
-  <h4>Mechanical &amp; Structural</h4>
-  <ul>
-    <li>Practical effects of tolerances across mixed manufacturing methods.</li>
-    <li>Load paths and stress concentrations in mechanical joints.</li>
-    <li>Importance of aligning joint geometry with expected loading.</li>
-    <li>Material behavior differences between homogeneous stock and layered prints.</li>
-  </ul>
-  <h4>Manufacturing</h4>
-  <ul>
-    <li>First hands-on experience running a CNC mill in an academic setting.</li>
-    <li>Tradeoffs between print orientation and dimensional accuracy.</li>
-    <li>Iterative prototyping as a core engineering tool.</li>
-  </ul>
-  <h4>Design Process</h4>
-  <ul>
-    <li>Designing under real constraints forces better engineering decisions.</li>
-    <li>Early prototyping can significantly reduce downstream failures.</li>
-    <li>Failure analysis is as valuable as success in improving designs.</li>
-  </ul>
-</section>
-
-<section class="section-card">
-  <h3>Skills &amp; Tools Used</h3>
-  <h4>Engineering Skills</h4>
-  <ul>
-    <li>Mechanical design</li>
-    <li>Solid mechanics</li>
-    <li>Tolerance analysis</li>
-    <li>Failure analysis</li>
-    <li>Design for Manufacturing &amp; Assembly (DFM/DFA)</li>
-  </ul>
-  <h4>Software &amp; Tools</h4>
-  <ul>
-    <li>SolidWorks (CAD, CAM, technical drawings)</li>
-    <li>CNC milling</li>
-    <li>FDM 3D printing</li>
-    <li>Bambu Lab slicing software</li>
-  </ul>
-  <h4>Processes</h4>
-  <ul>
-    <li>CNC planning and verification</li>
-    <li>Rapid prototyping</li>
-    <li>Iterative design validation</li>
-  </ul>
+  <p>This project was my first real hands-on experience using a CNC mill in an academic setting. I had done manual machining in high school robotics, but working with CNC added a new layer of planning and verification that I hadn’t dealt with before.</p>
+  <p>I also gained a much better feel for FDM 3D printing, especially how print orientation, geometry, and printer settings affect both strength and dimensional accuracy. We had to reprint several parts because they didn’t fit quite right, which made the impact of tolerances very real.</p>
+  <p>From a design perspective, the project really highlighted how important joint design and load paths are. The failure analysis was just as valuable as the successful parts, and it gave me a clearer idea of how I would approach a redesign.</p>
 </section>
 
 <section class="section-card">
   <h3>Future Improvements</h3>
   <ul>
-    <li>Redesign the joint to shift more load into the CNC-machined PVC frame.</li>
-    <li>Increase cross-sectional thickness of the 3D-printed dovetail.</li>
-    <li>Reorient the joint to oppose applied screw torque.</li>
-    <li>Prototype multiple joint concepts earlier in the design cycle.</li>
+    <li>Push more of the load into the CNC-machined PVC frame instead of the 3D-printed insert.</li>
+    <li>Increase the cross-sectional thickness of the printed joint.</li>
+    <li>Reorient the joint geometry so it better resists the loading from tightening the screw.</li>
   </ul>
 </section>
 
 <section class="section-card">
-  <h3>Project Outcomes</h3>
+  <h3>Tools &amp; Skills Used</h3>
   <ul>
-    <li>Functional clamp meeting all project requirements.</li>
-    <li>Load capacity competitive within the class.</li>
-    <li>Strong practical understanding of manufacturing-driven design constraints.</li>
-    <li>Clear linkage between analysis, fabrication, testing, and redesign.</li>
+    <li>Mechanical design</li>
+    <li>Solid mechanics</li>
+    <li>CAD (SolidWorks)</li>
+    <li>CNC planning and machining</li>
+    <li>FDM 3D printing</li>
+    <li>Design for Manufacturing &amp; Assembly (DFM/DFA)</li>
+    <li>Failure analysis</li>
   </ul>
 </section>
