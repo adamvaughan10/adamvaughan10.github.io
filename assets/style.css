@@ -281,6 +281,56 @@ main {
   display: block;
 }
 
+.media-block {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  margin-top: 16px;
+}
+
+.media-block img {
+  width: 32%;
+  max-width: 260px;
+  height: auto;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.media-block video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+.media-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.media-right {
+  flex-direction: row-reverse;
+}
+
+.media-video {
+  margin-top: 12px;
+}
+
+@media (max-width: 720px) {
+  .media-block {
+    flex-direction: column;
+  }
+
+  .media-right {
+    flex-direction: column;
+  }
+
+  .media-block img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 .status-complete {
   color: #1f5c46;
 }

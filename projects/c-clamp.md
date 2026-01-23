@@ -4,18 +4,16 @@ title: C-Clamp
 ---
 
 <section class="section-card">
-  <h2>C-Clamp Design &amp; Manufacturing Project</h2>
-  <p class="tagline">Designed and manufactured a functional C-clamp under strict constraints, integrating CNC machining, 3D printing, CAD, and tolerance analysis.</p>
-</section>
-
-<section class="section-card">
+  <h2>C-Clamp Manufacturing Project</h2>
   <h3>Overview</h3>
-  <p>As part of a Manufacturing Processes course, I designed and manufactured a functional C-clamp from concept through fabrication. The project required integrating CNC machining, additive manufacturing, CAD, and tolerance analysis while working under strict design constraints that forced deliberate engineering tradeoffs.</p>
-  <p>The final clamp successfully supported a 5 kg load without slippage or fracture, with failure occurring at 7 kg, providing a valuable opportunity for failure analysis and design iteration.</p>
-  <figure class="project-figure">
+  <div class="media-block media-left">
     <img src="{{ '/assets/projects/c-clamp/full.png' | relative_url }}" alt="Full C-clamp assembly">
-    <figcaption class="tagline">Full assembly of the C-clamp after fabrication and testing.</figcaption>
-  </figure>
+    <div class="media-text">
+      <p>As part of a Manufacturing Processes course, I designed and manufactured a functional C-clamp from concept through fabrication. The project required integrating CNC machining, additive manufacturing, CAD, and tolerance analysis while working under strict design constraints that forced deliberate engineering tradeoffs.</p>
+      <p>The final clamp successfully supported a 5 kg load without slippage or fracture, with failure occurring at 7 kg, providing a valuable opportunity for failure analysis and design iteration.</p>
+      <p class="tagline">Full assembly of the C-clamp after fabrication and testing.</p>
+    </div>
+  </div>
 </section>
 
 <section class="section-card">
@@ -31,26 +29,30 @@ title: C-Clamp
 
 <section class="section-card">
   <h3>Design Rationale &amp; Engineering Decisions</h3>
-  <h4>Frame–Threaded Insert Interface</h4>
-  <p>To connect the 3D-printed threaded insert to the CNC-machined frame without adhesives, we designed a tight-tolerance dovetail joint inspired by woodworking joinery.</p>
-  <p>Engineering considerations included load transfer from the screw into the frame, stress concentration at the joint interface, print-orientation limitations of the threaded geometry, and achievable tolerances for CNC vs. FDM printing. The dovetail allowed for mechanical interlock while avoiding secondary fastening methods.</p>
-  <figure class="project-figure">
+  <div class="media-block media-right">
     <img src="{{ '/assets/projects/c-clamp/frame_drawing.png' | relative_url }}" alt="C-frame technical drawing">
-    <figcaption class="tagline">Technical drawing of the CNC-machined C-frame.</figcaption>
-  </figure>
-  <h4>Screw &amp; Swivel Foot Design</h4>
-  <p>To improve real-world usability, the clamp incorporated a rotating contact foot to accommodate non-flat surfaces.</p>
-  <p>This required separating the screw shaft from the contact foot and designing a ball-and-socket joint that allowed free rotation while resisting pull-out. Multiple print iterations were tested to balance ease of assembly, retention force, and durability under repeated loading.</p>
-  <figure class="project-figure">
+    <div class="media-text">
+      <h4>Frame–Threaded Insert Interface</h4>
+      <p>To connect the 3D-printed threaded insert to the CNC-machined frame without adhesives, we designed a tight-tolerance dovetail joint inspired by woodworking joinery.</p>
+      <p>Engineering considerations included load transfer from the screw into the frame, stress concentration at the joint interface, print-orientation limitations of the threaded geometry, and achievable tolerances for CNC vs. FDM printing. The dovetail allowed for mechanical interlock while avoiding secondary fastening methods.</p>
+      <p class="tagline">Technical drawing of the CNC-machined C-frame.</p>
+    </div>
+  </div>
+  <div class="media-block media-left">
     <img src="{{ '/assets/projects/c-clamp/foot_drawing.png' | relative_url }}" alt="Clamp foot technical drawing">
-    <figcaption class="tagline">Clamp foot drawing highlighting the swivel contact geometry.</figcaption>
-  </figure>
-  <figure class="project-figure">
-    <video controls playsinline>
-      <source src="{{ '/assets/projects/c-clamp/ball_and_socket.mov' | relative_url }}" type="video/quicktime">
-    </video>
-    <figcaption class="tagline">Ball-and-socket joint motion test for the swivel foot.</figcaption>
-  </figure>
+    <div class="media-text">
+      <h4>Screw &amp; Swivel Foot Design</h4>
+      <p>To improve real-world usability, the clamp incorporated a rotating contact foot to accommodate non-flat surfaces.</p>
+      <p>This required separating the screw shaft from the contact foot and designing a ball-and-socket joint that allowed free rotation while resisting pull-out. Multiple print iterations were tested to balance ease of assembly, retention force, and durability under repeated loading.</p>
+      <p class="tagline">Clamp foot drawing highlighting the swivel contact geometry.</p>
+      <div class="media-video">
+        <video controls playsinline>
+          <source src="{{ '/assets/projects/c-clamp/ball_and_socket.mov' | relative_url }}" type="video/quicktime">
+        </video>
+      </div>
+      <p class="tagline">Ball-and-socket joint motion test for the swivel foot.</p>
+    </div>
+  </div>
 </section>
 
 <section class="section-card">
@@ -66,16 +68,18 @@ title: C-Clamp
     <li>Machined the C-frame from PVC using a CNC mill.</li>
     <li>Used drawings to verify dimensional accuracy, surface finish, and fit with 3D-printed components.</li>
   </ul>
-  <h4>Additive Manufacturing</h4>
-  <ul>
-    <li>Printed threaded components and screw using FDM.</li>
-    <li>Planned prints in Bambu Lab slicing software.</li>
-    <li>Adjusted print orientation, layer height, infill, and wall thickness to balance strength, accuracy, and print success.</li>
-  </ul>
-  <figure class="project-figure">
+  <div class="media-block media-right">
     <img src="{{ '/assets/projects/c-clamp/3d_print.png' | relative_url }}" alt="3D-printed clamp components">
-    <figcaption class="tagline">All 3D-printed components before assembly.</figcaption>
-  </figure>
+    <div class="media-text">
+      <h4>Additive Manufacturing</h4>
+      <ul>
+        <li>Printed threaded components and screw using FDM.</li>
+        <li>Planned prints in Bambu Lab slicing software.</li>
+        <li>Adjusted print orientation, layer height, infill, and wall thickness to balance strength, accuracy, and print success.</li>
+      </ul>
+      <p class="tagline">All 3D-printed components before assembly.</p>
+    </div>
+  </div>
 </section>
 
 <section class="section-card">
