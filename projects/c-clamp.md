@@ -4,7 +4,7 @@ title: C-Clamp
 ---
 
 <section class="section-card">
-  <h2>C-Clamp Design &amp; Manufacturing Project</h2>
+  <h2>C-Clamp Manufacturing Project</h2>
   <h3>Description</h3>
   <div class="media-block media-left">
     <figure class="media-figure media-figure-small">
@@ -12,7 +12,7 @@ title: C-Clamp
       <figcaption class="tagline">Full assembly of the C-clamp after fabrication and testing.</figcaption>
     </figure>
     <div class="media-text">
-      <p>For a manufacturing processes course, my partner and I designed and built a functional C-clamp from scratch. The goal was to take a simple mechanical tool all the way from concept to a finished, tested part, while working within a set of manufacturing constraints that heavily influenced the final design.</p>
+      <p>For a manufacturing processes course, my partner and I designed and built a functional C-clamp from scratch. The goal was to take a simple mechanical tool all the way from concept to a finished, tested part, while working within a set of manufacturing constraints that heavily influenced the final design. Along the way, I learned about DFM, DFA, working with CAM software and 3D printing.</p>
     </div>
   </div>
 </section>
