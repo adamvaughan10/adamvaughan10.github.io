@@ -300,10 +300,6 @@ main {
   max-width: 240px;
 }
 
-.media-figure-rotate-left img {
-  transform: rotate(-6deg);
-}
-
 .media-block img {
   width: 100%;
   height: auto;
