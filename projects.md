@@ -12,7 +12,7 @@ title: Projects
   <div class="projects-grid">
     <article class="project-card">
       <a class="project-card-link" href="{{ '/projects/c-clamp.html' | relative_url }}">
-        <img src="{{ '/assets/projects/c-clamp/clamp_cover.jpg' | relative_url }}" alt="C-clamp cover photo">
+        <img src="{{ '/assets/projects/c-clamp/clamp_cover.png' | relative_url }}" alt="C-clamp cover photo">
         <h3>C-Clamp</h3>
         <div class="project-meta">Design and Manufacturing</div>
         <p class="tagline">Design for strength, manufacturability, and reliable clamping performance.</p>

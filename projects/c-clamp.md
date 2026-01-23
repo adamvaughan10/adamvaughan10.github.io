@@ -13,7 +13,7 @@ title: C-Clamp
   <p>As part of a Manufacturing Processes course, I designed and manufactured a functional C-clamp from concept through fabrication. The project required integrating CNC machining, additive manufacturing, CAD, and tolerance analysis while working under strict design constraints that forced deliberate engineering tradeoffs.</p>
   <p>The final clamp successfully supported a 5 kg load without slippage or fracture, with failure occurring at 7 kg, providing a valuable opportunity for failure analysis and design iteration.</p>
   <figure class="project-figure">
-    <img src="{{ '/assets/projects/c-clamp/full.jpg' | relative_url }}" alt="Full C-clamp assembly">
+    <img src="{{ '/assets/projects/c-clamp/full.png' | relative_url }}" alt="Full C-clamp assembly">
     <figcaption class="tagline">Full assembly of the C-clamp after fabrication and testing.</figcaption>
   </figure>
 </section>
@@ -73,7 +73,7 @@ title: C-Clamp
     <li>Adjusted print orientation, layer height, infill, and wall thickness to balance strength, accuracy, and print success.</li>
   </ul>
   <figure class="project-figure">
-    <img src="{{ '/assets/projects/c-clamp/3d_print.jpg' | relative_url }}" alt="3D-printed clamp components">
+    <img src="{{ '/assets/projects/c-clamp/3d_print.png' | relative_url }}" alt="3D-printed clamp components">
     <figcaption class="tagline">All 3D-printed components before assembly.</figcaption>
   </figure>
 </section>
