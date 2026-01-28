@@ -40,7 +40,7 @@ title: C-Clamp
 </section>
 
 <section class="section-card">
-  <h3>Your Approach</h3>
+  <h3>Our Approach</h3>
   <div class="media-block media-right">
     <figure class="media-figure">
       <img src="{{ '/assets/projects/c-clamp/frame_drawing.png' | relative_url }}" alt="C-frame technical drawing">
