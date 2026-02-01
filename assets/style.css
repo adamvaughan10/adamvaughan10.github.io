@@ -408,6 +408,26 @@ footer {
   }
 }
 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 32px 64px -20px rgba(29, 28, 26, 0.8);
+}
+
 @media (max-width: 860px) {
   .hero {
     grid-template-columns: 1fr;
