@@ -21,7 +21,7 @@ title: Projects
     </article>
     <article class="project-card">
       <a class="project-card-link" href="{{ '/projects/phone-gimbal.html' | relative_url }}">
-        <img src="{{ '/assets/projects/active-noise.svg' | relative_url }}" alt="Phone gimbal project placeholder">
+        <img src="{{ '/assets/projects/gimbal/title_gimbal.png' | relative_url }}" alt="Phone gimbal project tile image">
         <h3>Phone Gimbal</h3>
         <div class="project-meta">Mechanical Design</div>
         <p class="tagline">Compact stabilization with smooth motion control and balanced mechanical layout.</p>
