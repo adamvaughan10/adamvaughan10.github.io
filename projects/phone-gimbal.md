@@ -17,6 +17,10 @@ title: Phone Gimbal
     <li><strong>Status:</strong> Completed design, manufacturing-ready</li>
     <li><strong>Focus:</strong> Mechanical design and DFM (electronics and software considered, not designed)</li>
   </ul>
+  <figure class="project-figure">
+    <img src="{{ '/assets/projects/gimbal/drawings/MAIN_FINAL.png' | relative_url }}" alt="Phone gimbal main assembly drawing">
+    <figcaption class="tagline">Main assembly drawing.</figcaption>
+  </figure>
 </section>
 
 <section class="section-card">
@@ -66,6 +70,7 @@ title: Phone Gimbal
   </ul>
   <p>Final deliverables support direct handoff to manufacturing.</p>
   <p><a href="{{ '/gimbal-drawings-gallery.html' | relative_url }}">View Drawings Gallery →</a></p>
+  <p><a href="{{ '/projects/gimbal-assembly-guide.html' | relative_url }}">View Assembly Guide →</a></p>
 </section>
 
 <section class="section-card">
