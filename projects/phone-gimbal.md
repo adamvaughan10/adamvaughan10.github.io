@@ -42,6 +42,7 @@ title: Phone Gimbal
     <li><strong>Manufacturing intent:</strong> Chose 6061 aluminum for stiffness-to-weight, then shaped parts around standard machining processes.</li>
     <li><strong>Usability details:</strong> Quick-lock phone mounting, grip sizing, and internal routing were refined alongside the CAD assemblies.</li>
   </ul>
+  <p><a href="{{ '/gimbal-gallery.html' | relative_url }}">View Gallery →</a></p>
 </section>
 
 <section class="section-card">
@@ -53,7 +54,6 @@ title: Phone Gimbal
   </ul>
   <p>A full parametric CAD model was developed in SolidWorks with attention to assembly interfaces and manufacturability.</p>
   <p><em>Cross-section image of phone mount shown to illustrate internal geometry and constraints.</em></p>
-  <p><a href="{{ '/gimbal-gallery.html' | relative_url }}">View Gallery →</a></p>
 </section>
 
 <section class="section-card">
@@ -65,6 +65,7 @@ title: Phone Gimbal
     <li>Part geometry compatible with standard machining processes.</li>
   </ul>
   <p>Final deliverables support direct handoff to manufacturing.</p>
+  <p><a href="{{ '/gimbal-drawings-gallery.html' | relative_url }}">View Drawings Gallery →</a></p>
 </section>
 
 <section class="section-card">
