@@ -49,6 +49,7 @@ title: Phone Gimbal
   </ul>
   <p>A full parametric CAD model was developed in SolidWorks with attention to assembly interfaces and manufacturability.</p>
   <p><em>Cross-section image of phone mount shown to illustrate internal geometry and constraints.</em></p>
+  <p><a href="{{ '/gimbal-gallery.html' | relative_url }}">View Gallery →</a></p>
 </section>
 
 <section class="section-card">
