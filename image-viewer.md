@@ -6,6 +6,7 @@ title: Image Viewer
 <section class="section-card viewer-header">
   <h2 class="viewer-title">Image Preview</h2>
   <p class="tagline viewer-meta">Loading image…</p>
+  <a class="button secondary viewer-back" href="{{ '/' | relative_url }}">Back to Previous Page</a>
 </section>
 
 <section class="section-card viewer-card">
@@ -22,11 +23,32 @@ title: Image Viewer
     const image = document.querySelector('.viewer-image');
     const title = document.querySelector('.viewer-title');
     const meta = document.querySelector('.viewer-meta');
-    const isPng = (value) => value && value.toLowerCase().includes('.png');
+    const isImage = (value) => {
+      if (!value) {
+        return false;
+      }
+      try {
+        const path = new URL(value, window.location.origin).pathname.toLowerCase();
+        return path.endsWith('.png') || path.endsWith('.jpg') || path.endsWith('.jpeg') || path.endsWith('.webp');
+      } catch {
+        return false;
+      }
+    };
+    const backLink = document.querySelector('.viewer-back');
+    if (document.referrer) {
+      try {
+        const referrerUrl = new URL(document.referrer);
+        if (referrerUrl.origin === window.location.origin) {
+          backLink.href = referrerUrl.pathname + referrerUrl.search + referrerUrl.hash;
+        }
+      } catch {
+        // Keep default back link if referrer is invalid.
+      }
+    }
 
-    if (!src || !isPng(src)) {
+    if (!src || !isImage(src)) {
       title.textContent = 'Image not found';
-      meta.textContent = 'No PNG image was provided.';
+      meta.textContent = 'No image was provided.';
       image.remove();
       return;
     }
