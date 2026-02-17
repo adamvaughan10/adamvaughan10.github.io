@@ -444,6 +444,33 @@ footer {
   font-size: 14px;
 }
 
+.viewer-header {
+  text-align: center;
+}
+
+.viewer-card {
+  padding: 24px;
+}
+
+.viewer-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: var(--card);
+}
+
+.viewer-image {
+  width: 100%;
+  max-width: 1200px;
+  max-height: 78vh;
+  object-fit: contain;
+  border-radius: 12px;
+  background: #fff;
+}
+
 @media (max-width: 860px) {
   .hero {
     grid-template-columns: 1fr;

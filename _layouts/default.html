@@ -40,5 +40,34 @@
       <p>© {{ site.title }}</p>
     </footer>
   </div>
+  <script>
+    (() => {
+      const isViewerPage = window.location.pathname.includes('image-viewer');
+      const isPng = (value) => value && value.toLowerCase().includes('.png');
+      document.addEventListener('click', (event) => {
+        if (isViewerPage) {
+          return;
+        }
+        const image = event.target.closest('img');
+        if (!image) {
+          return;
+        }
+        if (image.closest('a') || image.closest('[data-no-viewer]')) {
+          return;
+        }
+        const src = image.getAttribute('src');
+        if (!isPng(src)) {
+          return;
+        }
+        const caption = image.getAttribute('alt') || '';
+        const viewerUrl = new URL("{{ '/image-viewer.html' | relative_url }}", window.location.origin);
+        viewerUrl.searchParams.set('src', src);
+        if (caption) {
+          viewerUrl.searchParams.set('caption', caption);
+        }
+        window.location.href = viewerUrl.toString();
+      });
+    })();
+  </script>
 </body>
 </html>
