@@ -20,23 +20,27 @@ title: Phone Gimbal
 </section>
 
 <section class="section-card">
-  <h3>Engineering Problem</h3>
-  <p>The objective was to conceive and fully design a consumer-ready phone stabilizing gimbal, taking the product from concept through a complete, manufacturable mechanical design.</p>
+  <h3>Engineering Considerations</h3>
+  <p>The design started with a clear performance target: cinematic stabilization for phones, not just casual handheld smoothing. That meant prioritizing full 3-axis freedom, fast response, and a mass range that would cover today’s heaviest phones while leaving headroom for accessories.</p>
   <ul>
-    <li><strong>Ergonomics:</strong> Handheld videography comfort and stability</li>
-    <li><strong>Motion quality:</strong> Mechanical stability and smooth motion</li>
-    <li><strong>Manufacturability:</strong> Components designed for standard processes</li>
-    <li><strong>Packaging:</strong> Internal space for battery placement and wire routing</li>
+    <li><strong>Stability + control:</strong> Two-handed operation for steadier shots and room for controls, without exceeding a comfortable overall weight.</li>
+    <li><strong>Motion envelope:</strong> Motor placement and arm geometry sized to preserve yaw, roll, and pitch travel without self-collision.</li>
+    <li><strong>Durability:</strong> Environmental sealing and drop resilience informed material choice, wall thicknesses, and fastener strategy.</li>
+    <li><strong>User setup:</strong> A quick-lock clamp sized for a wide phone range, plus clearance for lens rigs.</li>
+    <li><strong>Power strategy:</strong> Battery placement and routing planned for long runtime and serviceability without compromising balance.</li>
   </ul>
   <p>Electronics and software were treated as system-level constraints, not fully developed subsystems.</p>
+  <p>To view the full spec sheet that we laid out at the beginning of the design process, click on the <a href="{{ '/projects/gimbal-spec-sheet.html' | relative_url }}">link</a>.</p>
 </section>
 
 <section class="section-card">
   <h3>Design Approach</h3>
   <ul>
-    <li><strong>Concept exploration:</strong> Evaluated existing products and iterated multiple design directions.</li>
-    <li><strong>Architecture choice:</strong> Two-handed stabilizer for stability, ergonomics, and future control surfaces.</li>
-    <li><strong>Impact:</strong> Form factor and mechanical layout were driven by the two-handed architecture decision.</li>
+    <li><strong>Requirements first:</strong> Used the spec sheet to set the motion envelope, payload target, and environmental goals before sketching form factors.</li>
+    <li><strong>Architecture lock-in:</strong> Committed early to a two-handed frame to stabilize longer shots and give room for a larger power system.</li>
+    <li><strong>Mechanism layout:</strong> Sequenced the gimbal axes to preserve full rotation while keeping the phone’s center of mass close to the axis stack.</li>
+    <li><strong>Manufacturing intent:</strong> Chose 6061 aluminum for stiffness-to-weight, then shaped parts around standard machining processes.</li>
+    <li><strong>Usability details:</strong> Quick-lock phone mounting, grip sizing, and internal routing were refined alongside the CAD assemblies.</li>
   </ul>
 </section>
 
