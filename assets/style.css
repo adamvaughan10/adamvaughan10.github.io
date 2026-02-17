@@ -456,16 +456,16 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 18px;
+  padding: 24px;
   border-radius: 18px;
   border: 1px solid var(--border);
   background: var(--card);
 }
 
 .viewer-image {
-  width: 100%;
-  max-width: 1200px;
-  max-height: 78vh;
+  width: min(1100px, 92vw);
+  height: auto;
+  max-height: 72vh;
   object-fit: contain;
   border-radius: 12px;
   background: #fff;
