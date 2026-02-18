@@ -42,7 +42,7 @@ title: Home
     </article>
     <article class="project-card">
       <a class="project-card-link" href="{{ '/projects/turret-guided-laser-pointer.html' | relative_url }}">
-        <img src="{{ '/assets/projects/inverted-pendulum.svg' | relative_url }}" alt="Turret-guided laser pointer project placeholder">
+        <img src="{{ '/assets/projects/laser pointer/laserPointerCover.png' | relative_url }}" alt="Turret-guided laser pointer cover image">
         <h3>Turret-Guided Laser Pointer</h3>
         <div class="project-meta">Controls + Tracking</div>
         <p class="tagline">Target tracking with a pan-tilt turret and precision alignment logic.</p>
