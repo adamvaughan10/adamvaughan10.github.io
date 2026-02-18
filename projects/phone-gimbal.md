@@ -17,7 +17,7 @@ title: Phone Gimbal
     <li><strong>Status:</strong> Completed design, manufacturing-ready</li>
     <li><strong>Focus:</strong> Mechanical design and DFM (electronics and software considered, not designed)</li>
   </ul>
-  <figure class="project-figure">
+  <figure class="project-figure project-figure-narrow">
     <img src="{{ '/assets/projects/gimbal/drawings/MAIN_FINAL.png' | relative_url }}" alt="Phone gimbal main assembly drawing">
     <figcaption class="tagline">Main assembly drawing.</figcaption>
   </figure>
