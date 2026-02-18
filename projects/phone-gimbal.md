@@ -57,7 +57,10 @@ title: Phone Gimbal
     <li><strong>Phone mount assembly:</strong> Most complex component; accommodates a range of phone sizes.</li>
   </ul>
   <p>A full parametric CAD model was developed in SolidWorks with attention to assembly interfaces and manufacturability.</p>
-  <p><em>Cross-section image of phone mount shown to illustrate internal geometry and constraints.</em></p>
+  <figure class="project-figure project-figure-narrow">
+    <img src="{{ '/assets/projects/gimbal/cross_section.png' | relative_url }}" alt="Cross-section of the phone mount showing internal geometry">
+    <figcaption class="tagline">Cross-section of the phone mount showing internal geometry and constraints.</figcaption>
+  </figure>
 </section>
 
 <section class="section-card">

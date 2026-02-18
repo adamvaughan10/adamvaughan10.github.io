@@ -58,6 +58,13 @@ title: Turret-Guided Laser Pointer
     <li><strong>Open-loop success:</strong> Achieved turret-like movements and manual positioning.</li>
     <li><strong>Closed-loop attempt:</strong> Tried to detect the laser position and drive to the selected location.</li>
   </ul>
+  <figure class="project-figure project-figure-narrow">
+    <video controls>
+      <source src="{{ '/assets/projects/laser pointer/demo.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption class="tagline">Control demo showing turret motion.</figcaption>
+  </figure>
 </section>
 
 <section class="section-card">
