@@ -45,6 +45,10 @@ title: Turret-Guided Laser Pointer
     <li><strong>Power:</strong> External power supply dedicated to the servos.</li>
     <li><strong>Vision:</strong> Logitech camera for live video input.</li>
   </ul>
+  <figure class="project-figure project-figure-narrow">
+    <img src="{{ '/assets/projects/laser pointer/electronics.png' | relative_url }}" alt="Laser pointer electronics setup with Raspberry Pi, servos, and power supply">
+    <figcaption class="tagline">Electronics setup for the turret system.</figcaption>
+  </figure>
 </section>
 
 <section class="section-card">
