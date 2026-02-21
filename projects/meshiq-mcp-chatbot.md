@@ -5,7 +5,7 @@ title: AI chatbot with MCP integration - meshIQ
 
 <section class="section-card">
   <h2>AI Chatbot with MCP Integration - meshIQ</h2>
-  <p class="tagline">Recruiter-friendly case study of an MCP-powered Slack chatbot for meshIQ.</p>
+  <p class="tagline">MCP-powered Slack chatbot for meshIQ.</p>
 </section>
 
 <section class="section-card">
