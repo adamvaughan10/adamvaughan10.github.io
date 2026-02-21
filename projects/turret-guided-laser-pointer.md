@@ -106,7 +106,7 @@ title: Turret-Guided Laser Pointer
 </section>
 
 <section class="section-card">
-  <h3>Skills Highlight</h3>
+  <h3>Skills Highlighted</h3>
   <ul>
     <li>Mechanical design (SolidWorks)</li>
     <li>FDM 3D printing and tolerance iteration</li>
