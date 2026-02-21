@@ -25,6 +25,14 @@ title: Home
   <p class="tagline">A glimpse of projects that combine modeling, control, and mechanical design. Click a title for the full case study.</p>
   <div class="projects-grid">
     <article class="project-card">
+      <a class="project-card-link" href="{{ '/projects/meshiq-mcp-chatbot.html' | relative_url }}">
+        <img src="{{ '/assets/projects/meshIQ/cover.png' | relative_url }}" alt="meshIQ MCP chatbot project tile image">
+        <h3>AI Chatbot with MCP Integration</h3>
+        <div class="project-meta">LLM Systems</div>
+        <p class="tagline">Slack-based MCP chatbot for natural-language access to meshIQ data.</p>
+      </a>
+    </article>
+    <article class="project-card">
       <a class="project-card-link" href="{{ '/projects/c-clamp.html' | relative_url }}">
         <img src="{{ '/assets/projects/c-clamp/clamp_cover.png' | relative_url }}" alt="C-clamp cover photo">
         <h3>C-Clamp</h3>

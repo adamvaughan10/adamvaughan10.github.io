@@ -30,7 +30,7 @@ title: Projects
     </article>
     <article class="project-card">
       <a class="project-card-link" href="{{ '/projects/meshiq-mcp-chatbot.html' | relative_url }}">
-        <img src="{{ '/assets/projects/mcp/cover.png' | relative_url }}" alt="meshIQ MCP chatbot project tile image">
+        <img src="{{ '/assets/projects/meshIQ/cover.png' | relative_url }}" alt="meshIQ MCP chatbot project tile image">
         <h3>AI Chatbot with MCP Integration</h3>
         <div class="project-meta">LLM Systems</div>
         <p class="tagline">Slack-based MCP chatbot for natural-language access to meshIQ data.</p>

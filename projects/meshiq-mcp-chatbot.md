@@ -24,7 +24,7 @@ title: AI chatbot with MCP integration - meshIQ
   <h3>Overview</h3>
   <p>I rebuilt an existing proof of concept from the ground up to meet the Model Context Protocol (MCP) specification. The result is a Slack-based chatbot that allows meshIQ users to ask natural-language questions about middleware and receive grounded, auditable responses backed by meshIQ data.</p>
   <figure class="project-figure project-figure-narrow">
-    <img src="{{ '/assets/projects/mcp/cover.png' | relative_url }}" alt="meshIQ MCP chatbot cover image">
+    <img src="{{ '/assets/projects/meshIQ/cover.png' | relative_url }}" alt="meshIQ MCP chatbot cover image">
     <figcaption class="tagline">MCP-powered Slack chatbot connecting natural-language questions to meshIQ data.</figcaption>
   </figure>
 </section>
@@ -47,6 +47,10 @@ title: AI chatbot with MCP integration - meshIQ
     <li><strong>Level 2: Planning loop.</strong> Builds a task plan, selects meshIQ APIs, executes calls, validates results, and returns a structured summary including call status.</li>
   </ul>
   <p>This separation reduces token usage and improves response time while keeping answers grounded in actual platform data.</p>
+  <figure class="project-figure project-figure-narrow">
+    <img src="{{ '/assets/projects/meshIQ/first-level-reasoning.png' | relative_url }}" alt="First-level reasoning example showing instant response path">
+    <figcaption class="tagline">Level 1 reasoning: fast answers from prior context without extra API calls.</figcaption>
+  </figure>
 </section>
 
 <section class="section-card">
@@ -71,15 +75,15 @@ title: AI chatbot with MCP integration - meshIQ
   <h3>Example Interactions</h3>
   <p>The three images below show the full loop: an initial request that triggers the planning loop and fails an API call, a follow-up reprompt with additional parameters that retries the same API and succeeds, and a final follow-up question answered from the already gathered data without re-entering the planning loop.</p>
   <figure class="project-figure">
-    <img src="{{ '/assets/projects/mcp/chat-example-01.png' | relative_url }}" alt="Example MCP chatbot request and response">
+    <img src="{{ '/assets/projects/meshIQ/thinking-loop.png' | relative_url }}" alt="Initial request showing the planning loop and a failed API call">
     <figcaption class="tagline">Initial request: planning loop runs, but the API call fails and is reported clearly.</figcaption>
   </figure>
   <figure class="project-figure">
-    <img src="{{ '/assets/projects/mcp/chat-example-02.png' | relative_url }}" alt="Example MCP chatbot follow-up request">
+    <img src="{{ '/assets/projects/meshIQ/FOLLOW-UP.png' | relative_url }}" alt="Follow-up request that re-runs the API call with new parameters">
     <figcaption class="tagline">Follow-up reprompt: extra parameters provided, the same API call reruns and succeeds.</figcaption>
   </figure>
   <figure class="project-figure">
-    <img src="{{ '/assets/projects/mcp/chat-example-03.png' | relative_url }}" alt="Example MCP chatbot planning loop output">
+    <img src="{{ '/assets/projects/meshIQ/follow-up2.png' | relative_url }}" alt="Second follow-up question answered from previously gathered data">
     <figcaption class="tagline">Second follow-up: question answered from prior results without another planning loop.</figcaption>
   </figure>
 </section>
