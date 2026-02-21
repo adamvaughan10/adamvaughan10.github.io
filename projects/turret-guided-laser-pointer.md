@@ -65,6 +65,7 @@ title: Turret-Guided Laser Pointer
     </video>
     <figcaption class="tagline">Control demo showing turret motion.</figcaption>
   </figure>
+  <p class="tagline">This clip shows manual turret positioning to verify the electronics and wiring before attempting closed-loop correction based on the laser dot position.</p>
 </section>
 
 <section class="section-card">

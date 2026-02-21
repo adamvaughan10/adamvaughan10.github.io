@@ -29,6 +29,15 @@ title: Projects
       </a>
     </article>
     <article class="project-card">
+      <a class="project-card-link" href="{{ '/projects/meshiq-mcp-chatbot.html' | relative_url }}">
+        <img src="{{ '/assets/projects/mcp/cover.png' | relative_url }}" alt="meshIQ MCP chatbot project tile image">
+        <h3>AI Chatbot with MCP Integration</h3>
+        <div class="project-meta">LLM Systems</div>
+        <p class="tagline">Slack-based MCP chatbot for natural-language access to meshIQ data.</p>
+        <div class="project-status status-complete">Completed</div>
+      </a>
+    </article>
+    <article class="project-card">
       <a class="project-card-link" href="{{ '/projects/turret-guided-laser-pointer.html' | relative_url }}">
         <img src="{{ '/assets/projects/laser pointer/laserPointerCover.png' | relative_url }}" alt="Turret-guided laser pointer cover image">
         <h3>Turret-Guided Laser Pointer</h3>
