@@ -5,7 +5,7 @@ title: About
 
 <section class="section-card">
   <div class="about-grid">
-    <img class="profile-photo" src="{{ '/IMG_0819.jpeg' | relative_url }}" alt="Portrait of Adam Vaughan">
+    <img class="profile-photo" src="{{ '/profile.jpeg' | relative_url }}" alt="Portrait of Adam Vaughan">
     <div>
       <h2>About Me</h2>
       <p>I love learning and coming to more in depth understanding of everything around me, and even more I love to apply that learning to projects, and build things that I find cool. </p>
