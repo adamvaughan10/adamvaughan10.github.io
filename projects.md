@@ -28,7 +28,7 @@ title: Projects
         <div class="project-status status-complete">Completed</div>
       </a>
     </article>
-    <!--
+
     <article class="project-card">
       <a class="project-card-link" href="{{ '/projects/meshiq-mcp-chatbot.html' | relative_url }}">
         <img src="{{ '/assets/projects/meshIQ/cover.png' | relative_url }}" alt="meshIQ MCP chatbot project tile image">
@@ -38,7 +38,7 @@ title: Projects
         <div class="project-status status-complete">Completed</div>
       </a>
     </article>
-    -->
+
     <article class="project-card">
       <a class="project-card-link" href="{{ '/projects/turret-guided-laser-pointer.html' | relative_url }}">
         <img src="{{ '/assets/projects/laser pointer/laserPointerCover.png' | relative_url }}" alt="Turret-guided laser pointer cover image">
